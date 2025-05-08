@@ -1,0 +1,513 @@
+/* Custom CSS for Nova AI - Kids Learning Bot */
+
+/* Main page styling with space theme */
+.main {
+    background: linear-gradient(135deg, #c2e9fb 0%, #a1c4fd 100%);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Add stars to background */
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(white, rgba(255, 255, 255, 0) 2px);
+    background-size: 50px 50px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+/* Header styling with space theme */
+.header-container {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: fadeIn 1.5s ease-in-out;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-image {
+    width: 80px;
+    height: 80px;
+    animation: pulse 2s infinite alternate;
+}
+
+.subtitle {
+    color: #6a11cb;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    animation: colorShift 4s infinite alternate;
+}
+
+/* Section headers with fun gradients */
+.section-header {
+    background: linear-gradient(90deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.section-header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    animation: shine 3s infinite;
+}
+
+/* Title styling with fun animation */
+h1 {
+    color: #6a11cb;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    animation: bounce 1.2s ease infinite alternate;
+    letter-spacing: 1px;
+}
+
+/* Enhanced animations */
+@keyframes bounce {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-12px); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+@keyframes colorShift {
+    0% { color: #6a11cb; }
+    50% { color: #ff3d7f; }
+    100% { color: #3a86ff; }
+}
+
+@keyframes shine {
+    0% { left: -100%; }
+    20% { left: 100%; }
+    100% { left: 100%; }
+}
+
+/* Selectbox styling with fun border */
+.stSelectbox > div > div {
+    background-color: #e6f7ff;
+    border-radius: 15px;
+    border: 3px solid #9370db;
+    transition: all 0.3s ease;
+}
+
+.stSelectbox > div > div:hover {
+    border-color: #ff3d7f;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Radio button styling with playful design */
+.stRadio > div {
+    background-color: #fff0f5;
+    padding: 18px;
+    border-radius: 15px;
+    border: 3px dashed #ff69b4;
+    transition: all 0.3s ease;
+}
+
+.stRadio > div:hover {
+    background-color: #ffe6f2;
+    transform: scale(1.02);
+}
+
+/* Button styling with fun design */
+.stButton > button {
+    background: linear-gradient(45deg, #FF9A9E 0%, #FECFEF 99%, #FECFEF 100%);
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 12px 30px;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.stButton > button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: 0.5s;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(45deg, #FECFEF 0%, #FF9A9E 99%, #FF9A9E 100%);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.stButton > button:hover::before {
+    left: 100%;
+}
+
+/* Expander styling for flashcards with playful design */
+.streamlit-expanderHeader {
+    background: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    color: #1a5276;
+    border: 3px solid #3498db;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.streamlit-expanderHeader:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.streamlit-expanderContent {
+    background-color: #f0f8ff;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    border: 3px solid #3498db;
+    border-top: none;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Success message styling with animation */
+.element-container div[data-testid="stText"] p {
+    padding: 15px;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 15px;
+    border-left: 6px solid #28a745;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Spinner styling with fun colors */
+.stSpinner > div {
+    border-color: #ff69b4 #ff69b4 transparent !important;
+    animation: spin 1s linear infinite, colorChange 3s infinite alternate !important;
+}
+
+@keyframes colorChange {
+    0% { border-color: #ff69b4 #ff69b4 transparent !important; }
+    50% { border-color: #9370db #9370db transparent !important; }
+    100% { border-color: #3498db #3498db transparent !important; }
+}
+
+/* Text input styling with fun focus effect */
+.stTextInput > div > div > input {
+    border-radius: 25px;
+    border: 3px solid #9370db;
+    padding: 12px 20px;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    font-size: 1.05rem;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #ff3d7f;
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Quiz and summary content styling with playful design */
+.element-container div[data-testid="stMarkdown"] {
+    background-color: #fff9c4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ffeb3b;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Add fun decorative elements to quiz and summary */
+.quiz-container, .summary-container {
+    position: relative;
+    background: linear-gradient(135deg, #fff9c4 0%, #fffde7 100%);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 3px solid #ffeb3b;
+    margin: 20px 0;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.quiz-container::before, .summary-container::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #ffeb3b 0%, #ffd54f 100%);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.quiz-container::after, .summary-container::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Flashcards container styling */
+.flashcards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Flashcard answer styling */
+.flashcard-answer {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 12px;
+    border-left: 5px solid #1890ff;
+    margin-top: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Mode description styling */
+.mode-description {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px dashed #9370db;
+}
+
+/* Highlight text in mode description */
+.highlight {
+    background: linear-gradient(120deg, #b8c6db 0%, #f5f7fa 100%);
+    color: #6a11cb;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Answer box styling */
+.answer-box {
+    background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-left: 6px solid #00bcd4;
+    animation: slideInRight 0.5s ease-out;
+}
+
+@keyframes slideInRight {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #ffd700;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Mode description styling */
+.mode-description {
+    background-color: #ede7f6;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    border-left: 5px solid #5e35b1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.mode-description:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shine 4s infinite;
+}
+
+.highlight {
+    background: linear-gradient(120deg, #b39ddb 0%, #9575cd 100%);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Answer box styling */
+.answer-box {
+    background-color: #e1f5fe;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #29b6f6;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.answer-box:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+    opacity: 0;
+    animation: ripple 3s infinite;
+}
+
+@keyframes ripple {
+    0% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 0.2; }
+    100% { opacity: 0; transform: scale(1.2); }
+}
+
+/* Quiz container styling */
+.quiz-container {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 3px dashed #66bb6a;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.quiz-container:after {
+    content: '✨';
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    font-size: 24px;
+    animation: twinkle 1.5s infinite alternate;
+}
+
+@keyframes twinkle {
+    from { opacity: 0.5; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1.2); }
+}
+
+/* Summary container styling */
+.summary-container {
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 3px dashed #ab47bc;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.summary-container:before {
+    content: '🌟';
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 24px;
+    animation: float 2s infinite alternate;
+}
+
+/* Flashcards container styling */
+.flashcards-container {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Flashcard answer styling */
+.flashcard-answer {
+    background-color: #e8eaf6;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+    border-left: 4px solid #5e35b1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.flashcard-answer:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #d1c4e9;
+}
