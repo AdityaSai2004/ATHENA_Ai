@@ -1,7 +1,9 @@
 # Athena AI: Empowering Women Through Adaptive Learning
 
-Welcome to our collection of innovative AI projects focused on empowering women through personalized learning experiences. Our solutions leverage advanced reinforcement learning technology to create adaptive, user-centric platforms that address unique challenges faced by women in different life stages.
-
+Welcome to Neuronworks.ai’s open-source repository—where we’re building AI to empower every woman and girl, everywhere.
+Our AI solutions deliver hyperpersonalized, multilingual agents that go beyond coaching—guiding users through life with actionable insights, nudges, and culturally grounded content. Powered by reinforcement learning, knowledge graphs, and expert-in-the-loop evaluation, our adaptive AI engine enables behavioral transformation across health, education, and economic empowerment.
+Each interaction is rooted in a dynamic understanding of the user’s journey—contextualized through data and designed to inform, motivate, and uplift. Whether it's a girl exploring STEM, a mother re-skilling for the workforce, or a woman navigating wellness, this is AI for Everyone—ethical, inclusive, and open to the world.
+Join us to scale impact, localize intelligence, and co-create systems that truly listen, learn, and serve.
 ## Our Projects
 
 ### 1. Nova AI - Personalized Learning Companion
