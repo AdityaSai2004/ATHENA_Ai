@@ -1,4 +1,4 @@
-# Athena AI: Empowering Women Through Adaptive Learning
+# Veena AI: Empowering Women and Girls Through Adaptive Learning
 
 Welcome to Neuronworks.ai’s open-source repository—where we’re building AI to empower every woman and girl, everywhere.
 Our AI solutions deliver hyperpersonalized, multilingual agents that go beyond coaching—guiding users through life with actionable insights, nudges, and culturally grounded content. Powered by reinforcement learning, knowledge graphs, and expert-in-the-loop evaluation, our adaptive AI engine enables behavioral transformation across health, education, and economic empowerment.
@@ -7,22 +7,37 @@ Join us to scale impact, localize intelligence, and co-create systems that truly
 ## Our Projects
 
 ### 1. Nova AI - Personalized Learning Companion
-Nova AI is an intelligent tutoring system that adapts to each learner's unique needs and learning style. Using reinforcement learning algorithms, Nova creates personalized learning paths that evolve with the student's progress.
+Welcome to Nurture AI Labs – the innovation lab of Neuronworks.ai focused on Generative AI, Coding, Machine Learning, STEAM, IoT, and Robotics for future-ready learners.
+
+Our flagship project, Nova AI – The Personalized Learning Companion, is an intelligent tutoring system designed to support girls and women in their learning journeys through hyperpersonalized, adaptive, and ethical AI.
 
 **Key Features:**
-- Adaptive learning paths based on individual performance
-- Real-time feedback and personalized recommendations
-- Interactive learning experiences
-- Progress tracking and analytics
+- AAdaptive learning paths powered by reinforcement learning and progress-aware algorithms
+- Knowledge-graph-driven insights for personalized feedback and behavioral nudges
+- Interactive learning experiences across coding, generative AI, IoT, and robotics
+- Real-time analytics for learners, parents, and educators
+-Multilingual, culturally relevant support even in low-resource environments
+
+Nova isn’t just a digital coach—it’s a transformative learning agent for building AI literacy, technical confidence, and future leadership.
 
 ### 2. Femme - Wellness & Menstrual Health Companion
-Femme is a revolutionary wellness app that provides personalized health insights and recommendations based on menstrual cycles. The platform uses Q-learning to deliver tailored suggestions for optimal health management.
+Welcome to Femme – a Wellness & Menstrual Health Companion from Nurture AI Labs, built to support women and girls with personalized, AI-powered care.
+
+Femme is not just a cycle tracker—it’s a behavior-aware digital health companion that uses Q-learning algorithms and reinforcement-driven personalization to help users manage their well-being across menstrual, emotional, and lifestyle dimensions.
 
 **Key Features:**
-- Personalized wellness recommendations
-- Cycle tracking with AI-driven insights
-- Daily wellness check-ins
-- Analytics dashboard for health trends
+- AI-powered cycle tracking with personalized wellness recommendations
+
+- Daily check-ins for mood, symptoms, hydration, and mental well-being
+
+
+- Q-learning-based suggestions that evolve with each user’s unique health pattern
+
+- Health analytics dashboard for longitudinal trends and proactive care
+
+- Privacy-first, culturally contextual design tailored for underserved environments
+
+Femme helps users understand their bodies, take control of their wellness journey, and build habits that support long-term health. It’s part of our mission to ensure “AI for Everyone” is also AI for Every Woman.
 
 ### 3. AI for Career Comeback Moms
 This innovative platform supports women returning to the workforce after maternity leave, helping them bridge the skills gap and regain career confidence through personalized upskilling pathways.
