@@ -1,4 +1,4 @@
-# AI for Social Impact: Empowering Women Through Adaptive Learning
+# Athena AI: Empowering Women Through Adaptive Learning
 
 Welcome to our collection of innovative AI projects focused on empowering women through personalized learning experiences. Our solutions leverage advanced reinforcement learning technology to create adaptive, user-centric platforms that address unique challenges faced by women in different life stages.
 
