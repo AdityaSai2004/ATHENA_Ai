@@ -21,7 +21,7 @@ Our flagship project, Nova AI – The Personalized Learning Companion, is an int
 Nova isn’t just a digital coach—it’s a transformative learning agent for building AI literacy, technical confidence, and future leadership.
 
 ### 2. Femme - Wellness & Menstrual Health Companion
-Welcome to Femme – a Wellness & Menstrual Health Companion from Nurture AI Labs, built to support women and girls with personalized, AI-powered care.
+Welcome to Femme – a Wellness & Menstrual Health Companion from Neuronworks.ai, built to support women and girls with personalized, AI-powered care.
 
 Femme is not just a cycle tracker—it’s a behavior-aware digital health companion that uses Q-learning algorithms and reinforcement-driven personalization to help users manage their well-being across menstrual, emotional, and lifestyle dimensions.
 
@@ -39,15 +39,18 @@ Femme is not just a cycle tracker—it’s a behavior-aware digital health compa
 
 Femme helps users understand their bodies, take control of their wellness journey, and build habits that support long-term health. It’s part of our mission to ensure “AI for Everyone” is also AI for Every Woman.
 
-### 3. AI for Career Comeback Moms
-This innovative platform supports women returning to the workforce after maternity leave, helping them bridge the skills gap and regain career confidence through personalized upskilling pathways.
+### 3. Athena ai- Career Transition Companion
+Welcome to Athena AI – a Career Transition Companion from Nurture AI Labs, designed to empower women returning to the workforce with AI-driven personalized career development and upskilling support.
+
+This innovative platform supports women returning to the workforce after maternity leave, helping them bridge the skills gap and regain career confidence through personalized upskilling pathways.It's an intelligent career companion that leverages reinforcement learning and behavioral science to create personalized career transition journeys, helping women navigate their return to work with confidence and competence.
 
 **Key Features:**
-- Personalized skill assessment and gap analysis
-- Adaptive learning paths based on industry trends
-- Flexible learning schedules that accommodate family responsibilities
-- Mentorship matching and networking opportunities
-- Career transition guidance and job market insights
+- AI-powered skill assessment and gap analysis using industry-aware algorithms
+- Personalized learning pathways that adapt to individual progress and industry trends
+- Smart scheduling system that balances learning with family responsibilities
+- Intelligent mentorship matching using compatibility algorithms
+- Community-driven support network with peer learning opportunities
+- Resume builder with AI-powered optimization
 
 ## Our Technology Approach
 
